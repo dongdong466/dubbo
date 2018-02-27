@@ -36,6 +36,7 @@
             <version>2.5.3</version>
             <exclusions>
                 <exclusion>
+                    <!-- 排除传递spring依赖 -->
                     <groupId>org.springframework</groupId>
                     <artifactId>spring</artifactId>
                 </exclusion>
