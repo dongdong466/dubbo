@@ -13,7 +13,7 @@ public class MyController {
 
     @RequestMapping("/test.do")
     public String getTest() {
-        System.out.print("11111111111");
+        System.out.println("11111111111");
         String str = myInterfence.helloWorld();
         System.out.println(str);
         return "welcome";
